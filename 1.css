@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Sen&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sen', sans-serif; */
+*{
+    margin: 0;
+}
+body{
+    background: #FAF8ED;
+    padding: 0 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 134px ;
+    color: #2E476B;
+    font-family: Poppins;
+    font-size: 16px;
+}
+a{
+    color: #2E476B;
+    font-family: Poppins;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.header-button{
+    color: #F66F4D;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 27px;
+    border: 1.4px solid #F66F4D;
+    padding: 20px;
+    background: #FAF8ED;    
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 200px;
+    margin: 0;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+h1{
+    color: #2D3134;
+    font-family: Sen;
+    font-size: 84px;
+    font-weight: 700;
+    width: 578px;
+    margin: 0;
+}
+h2{
+    color: #2D3134;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+   
+}
+p{
+    color: #5B5F62;
+    font-family: Inter;
+    font-size: 18px;
+    margin: 40px 0;
+}
+.main-left>div{
+    border-radius: 38px;
+    background: #FDFEFF;
+    padding: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+.main-button{
+    background: #FDFEFF;
+    border:none;
+    color: #2D3134;
+    font-family: Inter;
+    font-size: 18px;
+}
+ .Categories>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+ }
+ .tex-cart{
+     margin-left: 50px;
+ }
+ article{
+    margin: 100px 0;
+ }
+ .Experience{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+ }
+ .marks{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    gap: 40px;
+    margin: 0;
+    width: 500px;
+ }
+ .Experience-right{
+    width: 470px;
+ }
+ .marks>*{
+    width:170px;
+    height: 170px;
+ }
+ .mark{
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 20px;
+ }
+ .mark-number{
+    color: #F66F4D;
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: 600;
+    margin: 0;
+ }
+ .Popular>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .Arizona-p{
+    color: #5B5F62;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+ }
+ .Arizona-h{
+    color: #2D3134;
+    font-family: Inter;
+    font-size: 24px; 
+    font-weight: 600; 
+ } 
+.Arizona-input:hover{
+    width: 100px;
+    height: 37px;
+    border-radius: 46px;
+    background: #2D3134;
+    color: white;
+     margin-left: 130px;
+ }
+ .Arizona-input{
+    width: 100px;
+    height: 37px;
+    border-radius: 46px;
+    margin-left: 130px;
+    font-family:'Inter';
+    background: #FAF8ED;
+    border: 1px solid  #2D3134;
+ }
+ .price{
+    Color: #2D3134;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+ }
+ .Vientam1{
+    background-image: url(vientam1.png);
+    width: 270px;
+height: 250px;
+ }
+ .Vientam2{
+    background-image: url(vientam2.png);
+    width: 370px;
+    height: 526px;
+grid-row:1/3;
+grid-column: 2/3;
+ }
+ .Vientam3{
+    background-image: url(vientam3.png);
+    width: 470px;
+height: 250px;
+grid-column: 3/5;
+grid-row: 1/2;
+ }
+ .Vientam4{
+    background-image: url(vientam4.png);
+    width: 270px;
+    height: 250px;
+ }
+ .Vientam5{
+    background-image: url(vientam5.png);
+    width: 170px;
+height: 263px;
+ }
+ .Vientam6{
+    background-image: url(vientam6.png);
+    width: 270px;
+height: 263px;
+ }
+ .grid{
+    display: grid;
+    grid-template-columns:270px 370px 170px 270px ;
+    grid-template-rows: 250px 250px;
+    gap: 20px;
+ }
+ .Vientam{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat:no-repeat;
+ }
+ .Vientam>span{
+    color: #2D3134;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+border-radius: 12px;
+background: #FFF;
+padding: 2px;
+margin: 10px;
+width: 30px;
+text-align: center;
+ }
+ .Vientam h4{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+margin: 10px;
+ }
+ .Vientam p{
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+margin: 10px;
+ }
+ .Vientam-input{
+    color: #2D3134;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+border-radius: 30px;
+border: 1px solid #3D3D3D;
+background: #FAF8ED;
+padding: 4px 10px;
+ }
+ .Vientam-input:hover{
+    background: #2D3134;
+    color: #FFF;
+ }
+ .Destinations{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+ }
+ .Destinations-input{
+    display: flex;
+    gap: 20px;
+ }
+ .about{
+   display: flex;
+   padding-left: 200px;
+   align-items: center;
+ }
+ .about-h2>h2{
+   color: #2D3134;
+   font-family: Inter;
+   font-size: 56px;
+   font-weight: 600;
+   width: 500px;
+ }
+ .about-h2{
+   padding-left: 200px;
+   align-items: center;
+ }
+ .about-h2>p{
+   color: #5B5F62;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
+   width: 500px;
+ }
+ .about-h3{
+   color: #2D3134;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 500;
+ }
+ .about-p{
+   color: #5B5F62;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 400;
+ }
+ .about-img{
+   width: 40%;
+   height: 40%;
+ }
+.Sign>div{
+   background-image: url(sign.jpg);
+   width: 1170px;
+   height: 358px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.Sign{
+   padding: 40px 260px;
+}
+.Sign h3{
+   font-family:'Inter';
+   font-size: 40px;
+   font-weight: 700;
+}
+.Sign input{
+   width: 430px;
+   height: 40px;
+   border-radius: 12px;
+   border: none;
+   padding: 10px;
+}
+.Sign img{
+   position: relative;
+   bottom: 60px;
+   left: 190px;
+}
+footer{
+   display: flex;
+   justify-content: space-evenly;
+}
+footer h3{
+   font-family:'Inter';
+   color: #2D3134;
+   font-size: 18px;
+}
